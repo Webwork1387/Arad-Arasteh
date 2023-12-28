@@ -1,0 +1,64 @@
+﻿@font-face {
+    font-family: Vazir;
+    src: url(font/Vazirmatn-Regular.woff2);
+    font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Vazir;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    direction:rtl;
+   
+}
+
+.container {
+    width: 22rem;
+    margin-top: 8rem;
+    background-color: rgb(75, 5, 122);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+    .inputs input {
+        outline: none;
+        height: 30px;
+    }
+
+#results {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 0, 251);
+}
+
+.calcBtn {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background: #bc00c6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#message {
+    text-align: center;
+}
