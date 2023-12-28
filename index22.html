@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="Style22.css" rel="stylesheet" />
+
+    <title>BMI</title>
+</head>
+
+<body>
+    <!-- Further code here -->
+    <div class="container">
+        <h2 style="text-align: center;">BMI</h2>
+        <form>
+            <p class="inputs">
+                <label>Height (centimeter)</label>
+                <input type="number" id="height" min="1">
+            </p>
+            <p class="inputs">
+                <label>Weight(Kilograms)</label>
+                <input type="number" id="weight" min="1">
+            </p>
+
+            <button class="calcBtn">Cmputing</button>
+            <div style="margin-top: 20px;">
+                your Bmi: <p id="results"></p>
+            </div>
+            <p id="message"></p>
+
+        </form>
+    </div>
+    <script src="Index.js"></script>
+</body>
+
+</html>
